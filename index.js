@@ -38,8 +38,8 @@ function addClickEvent(){
         })
     }
 }
-//Posting the movie details
-// the poster to be dispalyed on the div with poster id
+//Posting movie details
+// poster to be dispalyed on the div with poster id
 function setUpMovieDetails(funMovie){
     const preview = document.getElementById('poster')
     preview.src = funMovie.poster;

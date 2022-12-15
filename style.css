@@ -1,73 +1,64 @@
-body {
-    background-color:rgba(0, 0, 0, 0.603);
-    float: left;
-  }
-  .heading {
-    background-color: rgba(144, 225, 239, 0.288);
-    margin-bottom: 20px;
-    padding: 5px 0px 5px 15px;
-  }
-  .title {
-    background-color: rgba(0, 180, 216, 0.425);
-    padding: 5px;
-    color: white;
-    text-align: center;
-  }
-  #runtime {
-    background-color:white;
-    color: black ;
-    padding: 20px;
-  }
-  .content {
-    color: #3E8FDE;
-    text-align:center;
-  }
-  #subtitle {
-    color: rgb(3, 4, 94);
-    text-align:center ;
-  }
-  #showing {
-    margin-left: 20px;
-  }
-  .description{
-    padding-bottom: 20px;
-  }
-  #films li::before {
-    content: "";
-  }
-  .film {
-    font-size: 16px;
-    text-transform: uppercase;
-  }
-  .sold-out {
-    color: lightgray;
-  }
-  img {
-    height: 400px;
-    width: 400px;
-    margin-left: 300px;
-    border: 3px solid rgb(3, 4, 94);
-    border: 2px white solid;
-  }
-  #film-info {
-    padding-bottom: 15px;
-    text-decoration: wavy;
-  }
-  #infobox {
-   font-size: 15px;
-   background-color: azure;
-  }
-  #buy-ticket{
-    font-size: 30px;
-    background-color:red;
-    cursor:cell;
-  }
-  li{
-    font-size: 20px;
-    color: blue;
-  }
-  .navbar-brand{
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-  }
+* {
+  background: #FF5A09;
+}
+img {
+  width: 500px;
+  height: 500px;
+  float: left;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+#heading {
+  text-align: center;
+  background-color: whitesmoke;
+  
+}
+ul {
+  float: left;
+}
+h2 {
+  text-align: center;
+  background-color: whitesmoke;
+}
+.films {
+  background: whitesmoke;
+}
+
+
+
+
+button {
+align-items: center;
+background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+border: 0;
+border-radius: 8px;
+box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+box-sizing: border-box;
+color: #FFFFFF;
+display: flex;
+font-family: Phantomsans, sans-serif;
+font-size: 20px;
+justify-content: center;
+line-height: 1em;
+max-width: 100%;
+min-width: 140px;
+padding: 19px 24px;
+text-decoration: none;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+white-space: nowrap;
+cursor: pointer;
+}
+
+button:active,
+button:hover {
+outline: 0;
+}
+
+@media (min-width: 768px) {
+button {
+  font-size: 24px;
+  min-width: 196px;
+}
+}
