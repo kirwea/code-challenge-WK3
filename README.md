@@ -9,10 +9,9 @@ See a menu of all movies on the left side of the page in the ul#films element wh
 Buy a ticket for a movie. After clicking the "Buy Ticket" button, I should see the number of available tickets decreasing on the frontend. I should not be able to buy a ticket if the showing is sold out (if there are 0 tickets available). No persistence is needed for this feature.
 REQUIREMENTS
 Prerequisites
-node v14.17.4 and above
-npm 6.14.14 and above
-Vue 2.6.11
-Then install the various packages from package.json npm install
+npm i json-server
+npx json-server --watch db.json
+Use the above prerequisites to run the code
 Create environment variables
 Use this JSON file for the server DB https://moringa.instructure.com/courses/185/files/152618?wrap=1
 Author:
